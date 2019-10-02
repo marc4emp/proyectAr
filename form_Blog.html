@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- estilo personalizado -->
+  <link rel="stylesheet" href="css/customviajar .css">
+  <!-- estilo bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>ProyectAr</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="text-center">
+      <h1 class="display-4">Publica tu experiencia</h1>
+      <p class="lead">Redacta y comparte tu aventura con la comunidad</p>
+
+    </div>
+    <p>Envianos tu articulo y al menos una fotografia y lo publicaremos en nuestra web. <i>(Te recordamos que la entrada
+        solo se publicara una vez aprobado su contenido)</i></p>
+
+    <!-- INICIO DE FORMULARIO -->
+    <form>
+
+      <!-- TITULO -->
+      <div class="form-group">
+        <label for="formGroupExampleInput">Titulo:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Titulo para tu articulo">
+      </div>
+
+      <!-- COMENTARIO -->
+      <div class="form-group">
+        <label for="formGroupExampleInput">Intenta resumir el contenido de tu articulo en una oracion:</label>
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Tu experiencia en una oracion">
+      </div>
+
+      <!-- CUERPO NOTICIA -->
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Cuerpo del articulo: *</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="10"
+          placeholder="Aqui ingresa todo lo que nos quieras contar" required></textarea>
+      </div>
+
+      <!-- IMG 1 -->
+      <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Primera Imagen: *</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1" required>
+            </div>
+          </div>
+  
+          <div class="col-sm-12 col-md-6 col-lg-8">
+            <div class="form-group">
+              <label for="formGroupExampleInput">Etiqueta Primera Imagen:</label>
+              <input type="text" class="form-control" id="formGroupExampleInput"
+                placeholder="Nombre o descripcion de lo que se observa en la imagen">
+            </div>
+          </div>
+        </div>
+
+      <!-- IMG 2 -->
+      <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Segunda Imagen:</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+          </div>
+  
+          <div class="col-sm-12 col-md-6 col-lg-8">
+            <div class="form-group">
+              <label for="formGroupExampleInput">Etiqueta Segunda Imagen:</label>
+              <input type="text" class="form-control" id="formGroupExampleInput"
+                placeholder="Nombre o descripcion de lo que se observa en la imagen">
+            </div>
+          </div>
+        </div>
+
+      <!-- IMG 3 -->
+      <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Tercera Imagen:</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+          </div>
+  
+          <div class="col-sm-12 col-md-6 col-lg-8">
+            <div class="form-group">
+              <label for="formGroupExampleInput">Etiqueta Tercera Imagen:</label>
+              <input type="text" class="form-control" id="formGroupExampleInput"
+                placeholder="Nombre o descripcion de lo que se observa en la imagen">
+            </div>
+          </div>
+        </div>
+
+      <!-- IMG 4 -->
+      <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <div class="form-group">
+              <label for="exampleFormControlFile1">Cuarta Imagen:</label>
+              <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            </div>
+          </div>
+  
+          <div class="col-sm-12 col-md-6 col-lg-8">
+            <div class="form-group">
+              <label for="formGroupExampleInput">Etiqueta Cuarta Imagen:</label>
+              <input type="text" class="form-control" id="formGroupExampleInput"
+                placeholder="Nombre o descripcion de lo que se observa en la imagen">
+            </div>
+          </div>
+        </div>
+
+      <!-- IMG 5 -->
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="form-group">
+            <label for="exampleFormControlFile1">Quinta Imagen:</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-8">
+          <div class="form-group">
+            <label for="formGroupExampleInput">Etiqueta Quinta Imagen:</label>
+            <input type="text" class="form-control" id="formGroupExampleInput"
+              placeholder="Nombre o descripcion de lo que se observa en la imagen">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- EMAIL -->
+      <div class="form-group">
+        <label for="exampleInputEmail1">Direccion de email: *</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="Ingresa tu e-mail" required>
+        <small id="emailHelp" class="form-text text-muted">No compartiremos tu email, ni te enviaremos span.</small>
+      </div>
+
+      <!-- BOTOM ENVIAR -->
+
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+
+
+    </form>
+    <!-- FIN DE FORMULARIO -->
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+
+</body>
